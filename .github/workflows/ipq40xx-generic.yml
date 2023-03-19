@@ -10,8 +10,8 @@ name: Build ipq40xx/generic openwrt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 18 * * *
+#  schedule:
+  #  - cron: 0 18 * * *
   # watch:
   #   types: started
 
